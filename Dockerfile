@@ -6,4 +6,4 @@ RUN pip install pymsteams
 
 COPY runner.py ./
 
-CMD [ "python", "./runner.py" ]
+ENTRYPOINT [ "python", "runner.py" ]
