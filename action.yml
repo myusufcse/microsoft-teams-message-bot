@@ -1,5 +1,5 @@
 name: 'Microsoft Teams Webhook Message Bot'
-description: 'GitHub Action to send a message to Microsoft Teams channel using a webhook'
+description: 'GitHub Action to send a message to Microsoft Teams using a webhook - Included an advanced options for a nice notifications'
 author: 'myusufcse'
 branding:
   icon: 'message-square'
