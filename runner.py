@@ -3,9 +3,9 @@ import sys
 
 color_scheme={'success':'00c551','danger':'ff4444','warning':'ffbb33','info':'33b5e5'}
 
-# print(len(sys.argv))
-# for i in range(1, len(sys.argv)):
-#     print(sys.argv[i])
+print(len(sys.argv))
+for i in range(1, len(sys.argv)):
+    print(sys.argv[i])
 
 if len(sys.argv) < 2:
   raise Exception("Please pass the webhooks and message for the notification")
