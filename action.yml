@@ -15,10 +15,10 @@ inputs:
     description: 'The notification color for your message either success, danger, warning or info'
     required: false
   button_link_text:
-    description: 'The button text for to navigate to link from Microsoft Teams channel'
+    description: 'The button text for navigation to link from Microsoft Teams channel'
     required: false
   button_link:
-    description: 'The button link for to navigation from Microsoft Teams channel'
+    description: 'The button link for navigation from Microsoft Teams channel'
     required: false
 runs:
   using: 'docker'
