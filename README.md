@@ -7,7 +7,7 @@
 
 2. Add the created webhook uri in Ms_Teams_Webhook_URI on your repository's configs on Settings > Secrets. It is the Webhook URI of the dedicated Microsoft Teams channel for notification. Learn more about setting up [GitHub Secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
-2) Add a new `step` on your github actions workflow code below:
+3. Add a new `step` on your github actions workflow code below:
 
 ```yaml
 
@@ -28,4 +28,13 @@ jobs:
           button_link: The button link for navigation from Microsoft Teams channel (optional)
 ```
 
-
+4. Simplified version of the code: **Advice not to pass the webhook uri directly**
+```yaml
+- name: Microsoft Teams Webhook Message Bot
+        uses: myusufcse/microsoft-teams-message-bot@v1.1
+        with:
+          webhook: Your webhook uri
+          message: Your custom notification message 
+```
+## Sample
+![Sample Notification](https://github.com/myusufcse/microsoft-teams-message-bot/blob/main/Microsoft%20Teams%20Webhook%20Message%20Bot.png?raw=true)
