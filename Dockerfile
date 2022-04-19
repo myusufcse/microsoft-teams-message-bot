@@ -2,7 +2,7 @@ FROM python:slim
 
 WORKDIR /usr/src/app
 
-RUN pip install pymsteams sys
+RUN pip install pymsteams
 
 COPY runner.py ./
 
