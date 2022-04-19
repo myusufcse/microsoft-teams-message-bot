@@ -1,7 +1,26 @@
 # microsoft-teams-message-bot
+
 - GitHub Action to send a message to Microsoft Teams using a webhook
+---
+<p align="center">
+    <a href="https://github.com/myusufcse/microsoft-teams-message-bot/releases">
+        <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/myusufcse/microsoft-teams-message-bot" height="18">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/marketplace/actions/microsoft-teams-webhook-message-bot">
+        <img alt="Marketplace" src="https://img.shields.io/badge/GitHub-Marketplace-orange.svg" height="18">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/myusufcse/microsoft-teams-message-bot/blob/main/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/myusufcse/microsoft-teams-message-bot" height="18">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/myusufcse">
+    <img alt="Build with Love" src="https://img.shields.io/badge/build%20with%20-%E2%9D%A4-purple" height="18">
+    </a>
+ </p>
 
-
+---
 ## Usage
 1. In order to use this, First you need is to create a Webhook in your Microsoft Teams Channel, follow [this link](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook#create-an-incoming-webhook-1) for info about creating a webhook.
 
